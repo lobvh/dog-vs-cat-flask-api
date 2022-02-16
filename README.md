@@ -11,6 +11,6 @@ Used Bootstrap to create visualy appealing API, fast-ai library to train a model
 
 To run this, cd to working directory and type 'python api.py'. You will be provided with a local server (ex. http://127.0.0.1:12000/). Follow that 'link'.
 
-Be advised that if you put a picture of something that is not cat/dog you might get gibberish results. As expected, since layers hold the nouances of dogs and cats, and can't generalize.
+Be advised that if you put a picture of something that is not cat/dog you might get gibberish results. As expected, since layers hold the nouances of dogs and cats, and <i>can't</i> generalize.
 
 Good luck, and feel free to ask me if you have any questions!
