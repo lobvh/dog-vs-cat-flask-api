@@ -3,7 +3,7 @@
 <p align="center"><img src = 'https://github.com/lobvh/dog-vs-cat-flask-api/blob/main/readme-image/cute-doggie.png?raw=true' width = 400 height = 500></p>
 
 
-A responsive Flask API to showcase usage of pretrained model to make inference. A dog-cat classifier is already trained via transfer learning techniques and I skipped the nouances of that. Imported the model as 'pickle file'.
+Simple, responsive Flask API to showcase usage of pretrained model to make inference. A dog-cat classifier is already trained via transfer learning techniques and I skipped the nouances of that. Imported the model as 'pickle file'.
 
 You can train and use your own dog-cat classifier (remember to change the variable names!) OR ask me to upload mine, since GitHub doesn't allows to upload larger files (25+ MB). 
 
