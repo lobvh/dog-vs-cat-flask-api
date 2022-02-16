@@ -23,7 +23,7 @@ def upload_predict():
         if image_file is not None:
             image_location = os.path.join(UPLOAD_FOLDER, image_file.filename)
             image_file.save(image_location)
-            pred = f'{learn_inf.predict(image_location)[2][0]:.04f}'
+            pred = f'{learn_inf.predict(image_location)[2][0]:.02%}'
             return render_template('index.html', prediction = pred, image_loc = image_file.filename)
     return render_template('index.html', prediction = 0, image_loc = None) 
 if __name__ == '__main__':
