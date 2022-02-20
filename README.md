@@ -8,6 +8,8 @@ Simple, responsive Flask API to showcase usage of pretrained model to make infer
 You can train and use your own dog-cat classifier (remember to change the variable names!) OR ask me to upload mine, since GitHub doesn't allows to upload larger files (25+ MB). 
 
 Used Bootstrap to create visualy appealing API, fast-ai library to train a model and it's functionality for making predictions on pretrained model. 
+Used Docker to create an image which makes this API runnable on all the machines. Check the Dockerfile, build a Docker image and try to run the 'api.py' via bash. 
+Be advised that the Docker image weighs ~4.7GB! 
 
 To run this, cd to working directory and type 'python api.py'. You will be provided with a local server (ex. http://127.0.0.1:12000/). Follow that 'link'.
 
